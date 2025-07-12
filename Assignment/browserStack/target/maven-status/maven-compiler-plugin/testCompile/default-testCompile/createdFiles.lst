@@ -1,0 +1,5 @@
+tests/OpinionTest.class
+tests/ElPaisTest.class
+base/BrowserStackBaseTest.class
+tests/BaseTest.class
+tests/TranslateTitleTest.class

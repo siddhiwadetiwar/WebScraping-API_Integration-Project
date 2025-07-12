@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="184.443" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/suite/browserstack-parallel.xml"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/target/test-classes:/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/target/classes:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-java/4.20.0/selenium-java-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-api/4.20.0/selenium-api-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.20.0/selenium-chrome-driver-4.20.0.jar:/Users/e5000853/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.20.0/selenium-chromium-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-json/4.20.0/selenium-json-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.20.0/selenium-manager-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.20.0/selenium-devtools-v122-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.20.0/selenium-devtools-v123-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.20.0/selenium-devtools-v124-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.20.0/selenium-devtools-v85-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.20.0/selenium-edge-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.20.0/selenium-firefox-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-http/4.20.0/selenium-http-4.20.0.jar:/Users/e5000853/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.20.0/selenium-ie-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.20.0/selenium-remote-driver-4.20.0.jar:/Users/e5000853/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/e5000853/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/e5000853/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/e5000853/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/e5000853/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/e5000853/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/e5000853/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-api/1.37.0/opentelemetry-api-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-context/1.37.0/opentelemetry-context-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.37.0/opentelemetry-exporter-logging-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.37.0/opentelemetry-sdk-common-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.37.0/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.37.0/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.37.0-alpha/opentelemetry-api-incubator-1.37.0-alpha.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.37.0/opentelemetry-sdk-trace-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.37.0/opentelemetry-sdk-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.37.0/opentelemetry-sdk-metrics-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.37.0/opentelemetry-sdk-logs-1.37.0.jar:/Users/e5000853/.m2/repository/net/bytebuddy/byte-buddy/1.14.14/byte-buddy-1.14.14.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-os/4.20.0/selenium-os-4.20.0.jar:/Users/e5000853/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.20.0/selenium-safari-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-support/4.20.0/selenium-support-4.20.0.jar:/Users/e5000853/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:/Users/e5000853/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/e5000853/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/e5000853/.m2/repository/org/testng/testng/7.10.1/testng-7.10.1.jar:/Users/e5000853/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/e5000853/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-testng/2.27.0/allure-testng-2.27.0.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-test-filter/2.27.0/allure-test-filter-2.27.0.jar:/Users/e5000853/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/e5000853/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/e5000853/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/e5000853/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/e5000853/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/e5000853/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/e5000853/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/e5000853/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/e5000853/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/e5000853/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/e5000853/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/e5000853/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/e5000853/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.615/aws-java-sdk-core-1.11.615.jar:/Users/e5000853/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/e5000853/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7.2/jackson-databind-2.6.7.2.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.jar:/Users/e5000853/.m2/repository/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/target/surefire/surefirebooter-20250712131317885_3.jar /Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/target/surefire 2025-07-12T13-13-17_816-jvmRun1 surefire-20250712131317885_1tmp surefire_0-20250712131317885_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/target/test-classes:/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/target/classes:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-java/4.20.0/selenium-java-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-api/4.20.0/selenium-api-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.20.0/selenium-chrome-driver-4.20.0.jar:/Users/e5000853/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.20.0/selenium-chromium-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-json/4.20.0/selenium-json-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.20.0/selenium-manager-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.20.0/selenium-devtools-v122-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.20.0/selenium-devtools-v123-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.20.0/selenium-devtools-v124-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.20.0/selenium-devtools-v85-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.20.0/selenium-edge-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.20.0/selenium-firefox-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-http/4.20.0/selenium-http-4.20.0.jar:/Users/e5000853/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.20.0/selenium-ie-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.20.0/selenium-remote-driver-4.20.0.jar:/Users/e5000853/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/e5000853/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/e5000853/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/e5000853/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/e5000853/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/e5000853/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/e5000853/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-api/1.37.0/opentelemetry-api-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-context/1.37.0/opentelemetry-context-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.37.0/opentelemetry-exporter-logging-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.37.0/opentelemetry-sdk-common-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.37.0/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.37.0/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.37.0-alpha/opentelemetry-api-incubator-1.37.0-alpha.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.37.0/opentelemetry-sdk-trace-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.37.0/opentelemetry-sdk-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.37.0/opentelemetry-sdk-metrics-1.37.0.jar:/Users/e5000853/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.37.0/opentelemetry-sdk-logs-1.37.0.jar:/Users/e5000853/.m2/repository/net/bytebuddy/byte-buddy/1.14.14/byte-buddy-1.14.14.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-os/4.20.0/selenium-os-4.20.0.jar:/Users/e5000853/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.20.0/selenium-safari-driver-4.20.0.jar:/Users/e5000853/.m2/repository/org/seleniumhq/selenium/selenium-support/4.20.0/selenium-support-4.20.0.jar:/Users/e5000853/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:/Users/e5000853/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/e5000853/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/e5000853/.m2/repository/org/testng/testng/7.10.1/testng-7.10.1.jar:/Users/e5000853/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/e5000853/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-testng/2.27.0/allure-testng-2.27.0.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar:/Users/e5000853/.m2/repository/io/qameta/allure/allure-test-filter/2.27.0/allure-test-filter-2.27.0.jar:/Users/e5000853/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/e5000853/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/e5000853/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/e5000853/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/e5000853/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/e5000853/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/e5000853/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/e5000853/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/e5000853/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/e5000853/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/e5000853/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/e5000853/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/e5000853/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/e5000853/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.615/aws-java-sdk-core-1.11.615.jar:/Users/e5000853/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/e5000853/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/e5000853/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7.2/jackson-databind-2.6.7.2.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar:/Users/e5000853/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.jar:/Users/e5000853/.m2/repository/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/e5000853"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/target/surefire/surefirebooter-20250712131317885_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="e5000853"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/e5000853/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="/var/folders/qr/pz1_24dn1gjfylj1brmbm9rc0000gp/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/e5000853/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testWebsiteIsInSpanish" classname="tests.ElPaisTest" time="1.054">
+    <system-out><![CDATA[Detected lang attribute: es-ES
+✅ Website language is correctly set to Spanish (es-ES)
+]]></system-out>
+    <system-err><![CDATA[Jul 12, 2025 1:13:18 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="testWebsiteIsInSpanish" classname="tests.ElPaisTest" time="0.65">
+    <system-out><![CDATA[Detected lang attribute: es-ES
+✅ Website language is correctly set to Spanish (es-ES)
+]]></system-out>
+  </testcase>
+  <testcase name="testWebsiteIsInSpanish" classname="tests.ElPaisTest" time="1.103">
+    <system-out><![CDATA[🔎 Navigated to Opinion Section...
+Detected lang attribute: es-ES
+✅ Website language is correctly set to Spanish (es-ES)
+]]></system-out>
+  </testcase>
+  <testcase name="testWebsiteIsInSpanish" classname="tests.ElPaisTest" time="2.265">
+    <system-out><![CDATA[✅ Accepted cookie banner.
+✅ Found 5 articles.
+
+📰 Article 1 Title: A menos Schengen, menos Europa
+🔗 URL: https://elpais.com/opinion/2025-07-12/a-menos-schengen-menos-europa.html
+Detected lang attribute: es-ES
+✅ Website language is correctly set to Spanish (es-ES)
+]]></system-out>
+  </testcase>
+  <testcase name="testWebsiteIsInSpanish" classname="tests.ElPaisTest" time="2.613">
+    <system-out><![CDATA[Detected lang attribute: es-ES
+✅ Website language is correctly set to Spanish (es-ES)
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeTopFiveOpinionArticles" classname="tests.OpinionTest" time="57.382">
+    <system-out><![CDATA[🔎 Navigated to Opinion Section...
+✅ Accepted cookie banner.
+✅ Found 5 articles.
+
+📰 Article 1 Title: A menos Schengen, menos Europa
+🔗 URL: https://elpais.com/opinion/2025-07-12/a-menos-schengen-menos-europa.html
+🔎 Navigated to Opinion Section...
+ℹ️ No cookie banner to accept.
+Desde el pasado lunes, Polonia inspecciona a los viajeros que llegan por tierra desde las vecinas Lituania y Alemania. Se trata de un preocupante paso atrás en uno de los grandes logros en el proceso de integración europea como es el Tratado de Schengen.
+El Gobierno de Varsovia cede así a la presión de su ultraderecha, que ha llegado a organizar tenebrosas “patrullas” en las zonas fronterizas y que, siguiendo la estela de las demás formaciones ultras continentales, identifica inmigración con delincuencia. Lamentablemente, Polonia ya tenía el ejemplo al otro lado de la frontera. La propia Alemania estableció controles de este tipo en septiembre del año pasado, medida que adoptó en pleno auge de la ultraderechista Alternativa para Alemania (AfD) en los sondeos.
+Hace 40 años, en junio de 1985, se firmó el acuerdo de Schengen, fundamental por su ambición, popularidad y eficacia. Cubriendo un área de 4,6 millones de kilómetros cuadrados en la que viven más de 450 millones de personas, ha facilitado el contacto, el turismo y el comercio entre los 29 países asociados —de los que 25 son de la UE— y en algunas zonas fronterizas ha supuesto una verdadera revolución, desmantelando barreras que cortaban pueblos y vidas en dos.
+Sin embargo, desde hace más de una década los Estados miembros del acuerdo han ido reintroduciendo paulatinamente controles que minan el espíritu del tratado. Lo que fue acordado por los ministros de Interior de la zona Schengen en 2012 como una respuesta de emergencia al éxodo provocado por las guerras civiles en Siria y Libia se ha aplicado cada vez más como respuesta a atentados terroristas y ante cualquier amago de crisis migratoria. A esto hay que sumarle la creciente reticencia de países que ya forman parte del espacio Schengen a dar la bienvenida a nuevos socios por temor a mayores flujos migratorios. Por ejemplo, cuando a principios de este año Rumania y Bulgaria se incorporaron a Schengen como miembros de pleno derecho, lo hicieron 20 años después de la firma de su adhesión a la UE, en gran medida por el veto de Austria, que les obligó a pasar por una vergonzosa “fase transicional”. Aun así, los rumanos y búlgaros que se asomaron por los pasos fronterizos en enero mostraban su satisfacción por sentirse europeos de pleno derecho.
+Una prueba de que Schengen sigue siendo una aspiración para los Estados más allá de la movilidad de sus ciudadanos, está en el empeño de Chipre —el único país de la UE pendiente de entrar junto a la República de Irlanda— en integrarse en la zona de libre circulación lo antes posible.
+Es evidente que los países de la Unión Europea tienen derecho de regular quién entra y quién pasa por su territorio. Pero los mecanismos aprobados en Schengen están para facilitar, y no para dificultar esa tarea. Cooperación entre autoridades policiales, euroórdenes, política común de visados, entre otros muchos, son procedimientos que hacen de la UE más segura y no al revés.
+Lo más preocupante de lo que está sucediendo es que los controles se establecen no en respuesta a amenazas reales, sino como medida populista destinada a enviar a un potencial electorado el mensaje dureza en materia de orden público. Es un error, porque los gobiernos que adoptan esta senda no hacen sino secundar a una ultraderecha que relaciona la libre circulación con la delincuencia, y que ataca de forma muy grave al concepto de integración europea ante la ciudadanía.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/PMLAKZJ4FFIFXD3SXITOHVJ77A.jpg?auth=b921ea3c61d2db11a512e42da8fe4a9f64d9c2779f88ea4bf8f50b13e100324c&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_1_cbd55115-62d2-428d-ac53-aa6c816a65bf.jpg
+
+📰 Article 2 Title: En interés de los menores
+🔗 URL: https://elpais.com/opinion/2025-07-12/en-interes-de-los-menores.html
+✅ Accepted cookie banner.
+🔎 Navigated to Opinion Section...
+🔎 Navigated to Opinion Section...
+✅ Accepted cookie banner.
+✅ Found 5 articles.
+✅ Found 5 articles.
+
+📰 Article 1 Title: A menos Schengen, menos Europa
+🔗 URL: https://elpais.com/opinion/2025-07-12/a-menos-schengen-menos-europa.html
+
+📰 Article 1 Title: A menos Schengen, menos Europa
+🔗 URL: https://elpais.com/opinion/2025-07-12/a-menos-schengen-menos-europa.html
+ℹ️ No cookie banner to accept.
+✅ Found 5 articles.
+ℹ️ No cookie banner to accept.
+Los jueces españoles mantienen el régimen de visitas a padres denunciados por violencia machista en 8 de cada 10 casos. El estudio de la Asociación de Mujeres Juristas Themis que revela el dato —basado en sentencias de todas las instancias judiciales dictadas durante 2022 y 2023— recoge también que nueve de cada 10 resoluciones mantienen la patria potestad del agresor, y al 9,6% se le concede incluso la custodia exclusiva. Si a estos datos se añade que el Ministerio de Interior tenía identificados en mayo a más de 1.400 menores en riesgo de violencia vicaria —132 en riesgo alto de ser agredidos—, la situación es socialmente insoportable.
+Los ministerios de Interior e Igualdad se han organizado para afrontar el aumento de sucesos de violencia de género que se produce con las vacaciones de verano. Y los hijos menores de las mujeres maltratadas son también víctimas de esta violencia. Así lo recoge la Ley 8/2021 de protección integral de la infancia. En esta se dice expresamente que no procederá el régimen de visitas —y si existiera, se suspenderá— para el progenitor “incurso en un proceso penal iniciado” por violencia de género o sexual contra el otro cónyuge o sus hijos, ni tampoco cuando el juez advierta “indicios fundados de violencia doméstica o de género”. En caso de mantener las visitas, debe ser por el bien del menor, y siempre en una resolución judicial motivada.
+La realidad, como revela el estudio, es que esta excepción legal es, sin embargo, la norma judicial. El interés del menor es un bien jurídico superior para nuestro ordenamiento: el favor filii (el beneficio del hijo) es un principio universal del derecho de familia, y prevalece sobre los derechos de los progenitores, que incluyen la crianza y la compañía de los hijos. La presunción de inocencia del supuesto agresor es un principio fundamental, pero su observancia no puede implicar que se asuma un riesgo sobre la integridad de los hijos. No se trata de aplicar un castigo preventivo, sino de atender al interés superior del menor, un principio consagrado en la Constitución y en el derecho internacional.
+El derecho civil es tradicionalmente reacio a regular demasiado los asuntos de familia, y deja en manos de los jueces resolver muchas situaciones atendiendo a la casuística. Y también ha sido un bastión del patriarcado. Por ejemplo, hasta la reforma del Código Civil de 1981, el ejercicio de la potestad era solo del padre, que podía incluso dar en adopción a los hijos sin el consentimiento de la madre (solo ejercía la patria potestad de manera subsidiaria, si faltaba el padre).
+Mucho han cambiado las leyes desde entonces. La sociedad española ha dado pasos agigantados y los legisladores han estado a su altura. Sin embargo, las cifras revelan que el poder judicial tiene todavía mucho por avanzar. No hacerlo pone en riesgo la integridad física y mental de los menores. Un coste inasumible.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/4EAEBAGGP5DAFI33EGL2RPJCU4.jpg?auth=644d287548d2a050c2ba90ea6902fb7c814827111d0b664a498047a0c8af9ba0&width=414
+ℹ️ No cookie banner to accept.
+✅ Image saved to src/main/resources/downloads/unknown_article_2_56db896a-61c9-4f5c-a92e-b1adf40f1ff1.jpg
+
+📰 Article 3 Title: Singularidad
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+Desde el pasado lunes, Polonia inspecciona a los viajeros que llegan por tierra desde las vecinas Lituania y Alemania. Se trata de un preocupante paso atrás en uno de los grandes logros en el proceso de integración europea como es el Tratado de Schengen.
+El Gobierno de Varsovia cede así a la presión de su ultraderecha, que ha llegado a organizar tenebrosas “patrullas” en las zonas fronterizas y que, siguiendo la estela de las demás formaciones ultras continentales, identifica inmigración con delincuencia. Lamentablemente, Polonia ya tenía el ejemplo al otro lado de la frontera. La propia Alemania estableció controles de este tipo en septiembre del año pasado, medida que adoptó en pleno auge de la ultraderechista Alternativa para Alemania (AfD) en los sondeos.
+Hace 40 años, en junio de 1985, se firmó el acuerdo de Schengen, fundamental por su ambición, popularidad y eficacia. Cubriendo un área de 4,6 millones de kilómetros cuadrados en la que viven más de 450 millones de personas, ha facilitado el contacto, el turismo y el comercio entre los 29 países asociados —de los que 25 son de la UE— y en algunas zonas fronterizas ha supuesto una verdadera revolución, desmantelando barreras que cortaban pueblos y vidas en dos.
+Sin embargo, desde hace más de una década los Estados miembros del acuerdo han ido reintroduciendo paulatinamente controles que minan el espíritu del tratado. Lo que fue acordado por los ministros de Interior de la zona Schengen en 2012 como una respuesta de emergencia al éxodo provocado por las guerras civiles en Siria y Libia se ha aplicado cada vez más como respuesta a atentados terroristas y ante cualquier amago de crisis migratoria. A esto hay que sumarle la creciente reticencia de países que ya forman parte del espacio Schengen a dar la bienvenida a nuevos socios por temor a mayores flujos migratorios. Por ejemplo, cuando a principios de este año Rumania y Bulgaria se incorporaron a Schengen como miembros de pleno derecho, lo hicieron 20 años después de la firma de su adhesión a la UE, en gran medida por el veto de Austria, que les obligó a pasar por una vergonzosa “fase transicional”. Aun así, los rumanos y búlgaros que se asomaron por los pasos fronterizos en enero mostraban su satisfacción por sentirse europeos de pleno derecho.
+Una prueba de que Schengen sigue siendo una aspiración para los Estados más allá de la movilidad de sus ciudadanos, está en el empeño de Chipre —el único país de la UE pendiente de entrar junto a la República de Irlanda— en integrarse en la zona de libre circulación lo antes posible.
+Es evidente que los países de la Unión Europea tienen derecho de regular quién entra y quién pasa por su territorio. Pero los mecanismos aprobados en Schengen están para facilitar, y no para dificultar esa tarea. Cooperación entre autoridades policiales, euroórdenes, política común de visados, entre otros muchos, son procedimientos que hacen de la UE más segura y no al revés.
+Lo más preocupante de lo que está sucediendo es que los controles se establecen no en respuesta a amenazas reales, sino como medida populista destinada a enviar a un potencial electorado el mensaje dureza en materia de orden público. Es un error, porque los gobiernos que adoptan esta senda no hacen sino secundar a una ultraderecha que relaciona la libre circulación con la delincuencia, y que ataca de forma muy grave al concepto de integración europea ante la ciudadanía.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/PMLAKZJ4FFIFXD3SXITOHVJ77A.jpg?auth=b921ea3c61d2db11a512e42da8fe4a9f64d9c2779f88ea4bf8f50b13e100324c&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_1_168c38bf-4935-4bff-8564-cb863f7ae9c7.jpg
+
+📰 Article 2 Title: En interés de los menores
+🔗 URL: https://elpais.com/opinion/2025-07-12/en-interes-de-los-menores.html
+
+📰 Article 1 Title: A menos Schengen, menos Europa
+🔗 URL: https://elpais.com/opinion/2025-07-12/a-menos-schengen-menos-europa.html
+ℹ️ No cookie banner to accept.
+Desde el pasado lunes, Polonia inspecciona a los viajeros que llegan por tierra desde las vecinas Lituania y Alemania. Se trata de un preocupante paso atrás en uno de los grandes logros en el proceso de integración europea como es el Tratado de Schengen.
+El Gobierno de Varsovia cede así a la presión de su ultraderecha, que ha llegado a organizar tenebrosas “patrullas” en las zonas fronterizas y que, siguiendo la estela de las demás formaciones ultras continentales, identifica inmigración con delincuencia. Lamentablemente, Polonia ya tenía el ejemplo al otro lado de la frontera. La propia Alemania estableció controles de este tipo en septiembre del año pasado, medida que adoptó en pleno auge de la ultraderechista Alternativa para Alemania (AfD) en los sondeos.
+Hace 40 años, en junio de 1985, se firmó el acuerdo de Schengen, fundamental por su ambición, popularidad y eficacia. Cubriendo un área de 4,6 millones de kilómetros cuadrados en la que viven más de 450 millones de personas, ha facilitado el contacto, el turismo y el comercio entre los 29 países asociados —de los que 25 son de la UE— y en algunas zonas fronterizas ha supuesto una verdadera revolución, desmantelando barreras que cortaban pueblos y vidas en dos.
+Sin embargo, desde hace más de una década los Estados miembros del acuerdo han ido reintroduciendo paulatinamente controles que minan el espíritu del tratado. Lo que fue acordado por los ministros de Interior de la zona Schengen en 2012 como una respuesta de emergencia al éxodo provocado por las guerras civiles en Siria y Libia se ha aplicado cada vez más como respuesta a atentados terroristas y ante cualquier amago de crisis migratoria. A esto hay que sumarle la creciente reticencia de países que ya forman parte del espacio Schengen a dar la bienvenida a nuevos socios por temor a mayores flujos migratorios. Por ejemplo, cuando a principios de este año Rumania y Bulgaria se incorporaron a Schengen como miembros de pleno derecho, lo hicieron 20 años después de la firma de su adhesión a la UE, en gran medida por el veto de Austria, que les obligó a pasar por una vergonzosa “fase transicional”. Aun así, los rumanos y búlgaros que se asomaron por los pasos fronterizos en enero mostraban su satisfacción por sentirse europeos de pleno derecho.
+Una prueba de que Schengen sigue siendo una aspiración para los Estados más allá de la movilidad de sus ciudadanos, está en el empeño de Chipre —el único país de la UE pendiente de entrar junto a la República de Irlanda— en integrarse en la zona de libre circulación lo antes posible.
+Es evidente que los países de la Unión Europea tienen derecho de regular quién entra y quién pasa por su territorio. Pero los mecanismos aprobados en Schengen están para facilitar, y no para dificultar esa tarea. Cooperación entre autoridades policiales, euroórdenes, política común de visados, entre otros muchos, son procedimientos que hacen de la UE más segura y no al revés.
+Lo más preocupante de lo que está sucediendo es que los controles se establecen no en respuesta a amenazas reales, sino como medida populista destinada a enviar a un potencial electorado el mensaje dureza en materia de orden público. Es un error, porque los gobiernos que adoptan esta senda no hacen sino secundar a una ultraderecha que relaciona la libre circulación con la delincuencia, y que ataca de forma muy grave al concepto de integración europea ante la ciudadanía.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/PMLAKZJ4FFIFXD3SXITOHVJ77A.jpg?auth=b921ea3c61d2db11a512e42da8fe4a9f64d9c2779f88ea4bf8f50b13e100324c&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_1_ef6eec96-40bf-4b96-bb37-e8bee0379513.jpg
+
+📰 Article 2 Title: En interés de los menores
+🔗 URL: https://elpais.com/opinion/2025-07-12/en-interes-de-los-menores.html
+ℹ️ No cookie banner to accept.
+Desde el pasado lunes, Polonia inspecciona a los viajeros que llegan por tierra desde las vecinas Lituania y Alemania. Se trata de un preocupante paso atrás en uno de los grandes logros en el proceso de integración europea como es el Tratado de Schengen.
+El Gobierno de Varsovia cede así a la presión de su ultraderecha, que ha llegado a organizar tenebrosas “patrullas” en las zonas fronterizas y que, siguiendo la estela de las demás formaciones ultras continentales, identifica inmigración con delincuencia. Lamentablemente, Polonia ya tenía el ejemplo al otro lado de la frontera. La propia Alemania estableció controles de este tipo en septiembre del año pasado, medida que adoptó en pleno auge de la ultraderechista Alternativa para Alemania (AfD) en los sondeos.
+Hace 40 años, en junio de 1985, se firmó el acuerdo de Schengen, fundamental por su ambición, popularidad y eficacia. Cubriendo un área de 4,6 millones de kilómetros cuadrados en la que viven más de 450 millones de personas, ha facilitado el contacto, el turismo y el comercio entre los 29 países asociados —de los que 25 son de la UE— y en algunas zonas fronterizas ha supuesto una verdadera revolución, desmantelando barreras que cortaban pueblos y vidas en dos.
+Sin embargo, desde hace más de una década los Estados miembros del acuerdo han ido reintroduciendo paulatinamente controles que minan el espíritu del tratado. Lo que fue acordado por los ministros de Interior de la zona Schengen en 2012 como una respuesta de emergencia al éxodo provocado por las guerras civiles en Siria y Libia se ha aplicado cada vez más como respuesta a atentados terroristas y ante cualquier amago de crisis migratoria. A esto hay que sumarle la creciente reticencia de países que ya forman parte del espacio Schengen a dar la bienvenida a nuevos socios por temor a mayores flujos migratorios. Por ejemplo, cuando a principios de este año Rumania y Bulgaria se incorporaron a Schengen como miembros de pleno derecho, lo hicieron 20 años después de la firma de su adhesión a la UE, en gran medida por el veto de Austria, que les obligó a pasar por una vergonzosa “fase transicional”. Aun así, los rumanos y búlgaros que se asomaron por los pasos fronterizos en enero mostraban su satisfacción por sentirse europeos de pleno derecho.
+Una prueba de que Schengen sigue siendo una aspiración para los Estados más allá de la movilidad de sus ciudadanos, está en el empeño de Chipre —el único país de la UE pendiente de entrar junto a la República de Irlanda— en integrarse en la zona de libre circulación lo antes posible.
+Es evidente que los países de la Unión Europea tienen derecho de regular quién entra y quién pasa por su territorio. Pero los mecanismos aprobados en Schengen están para facilitar, y no para dificultar esa tarea. Cooperación entre autoridades policiales, euroórdenes, política común de visados, entre otros muchos, son procedimientos que hacen de la UE más segura y no al revés.
+Lo más preocupante de lo que está sucediendo es que los controles se establecen no en respuesta a amenazas reales, sino como medida populista destinada a enviar a un potencial electorado el mensaje dureza en materia de orden público. Es un error, porque los gobiernos que adoptan esta senda no hacen sino secundar a una ultraderecha que relaciona la libre circulación con la delincuencia, y que ataca de forma muy grave al concepto de integración europea ante la ciudadanía.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/PMLAKZJ4FFIFXD3SXITOHVJ77A.jpg?auth=b921ea3c61d2db11a512e42da8fe4a9f64d9c2779f88ea4bf8f50b13e100324c&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_1_3b2de963-3ffb-45f8-add3-85c634e30b84.jpg
+
+📰 Article 2 Title: En interés de los menores
+🔗 URL: https://elpais.com/opinion/2025-07-12/en-interes-de-los-menores.html
+ℹ️ No cookie banner to accept.
+Creo que no es agradable besarle los pies a alguien. Pero la reverencia al poder busca todo tipo de materialidades con que manifestar adhesión, y encontró hace siglos que el beso postrado ante el trono (los labios sobre el manto o sobre los pies) era un evidente signo de sumisión y obediencia. Así se practicó en los salones palaciegos. En su mención figurada, el acto se convirtió en una fórmula con que evocar cortesía y respeto, por eso, en la despedida de las cartas antiguas aparecía a menudo un “que sus pies besa” que se hermanaba a veces con el menos servil “que sus manos besa”, un gesto no solo dicho sino también practicado en los encuentros cara a cara.
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/NVPXZJWQ2RO7ZNJE63B3WSGNNU.jpg?auth=77f3e9db487c004b27c5c0002e707a4e804014c9d8498b6d242cda69698f1b10&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_3_39543872-a340-4731-8aaf-7ce024867594.jpg
+
+📰 Article 4 Title: El mar ya no es eterno
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+ℹ️ No cookie banner to accept.
+
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/PMLAKZJ4FFIFXD3SXITOHVJ77A.jpg?auth=b921ea3c61d2db11a512e42da8fe4a9f64d9c2779f88ea4bf8f50b13e100324c&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_1_100cd59c-e619-4fcd-b7ac-91a58193dfd1.jpg
+
+📰 Article 2 Title: En interés de los menores
+🔗 URL: https://elpais.com/opinion/2025-07-12/en-interes-de-los-menores.html
+ℹ️ No cookie banner to accept.
+Los jueces españoles mantienen el régimen de visitas a padres denunciados por violencia machista en 8 de cada 10 casos. El estudio de la Asociación de Mujeres Juristas Themis que revela el dato —basado en sentencias de todas las instancias judiciales dictadas durante 2022 y 2023— recoge también que nueve de cada 10 resoluciones mantienen la patria potestad del agresor, y al 9,6% se le concede incluso la custodia exclusiva. Si a estos datos se añade que el Ministerio de Interior tenía identificados en mayo a más de 1.400 menores en riesgo de violencia vicaria —132 en riesgo alto de ser agredidos—, la situación es socialmente insoportable.
+Los ministerios de Interior e Igualdad se han organizado para afrontar el aumento de sucesos de violencia de género que se produce con las vacaciones de verano. Y los hijos menores de las mujeres maltratadas son también víctimas de esta violencia. Así lo recoge la Ley 8/2021 de protección integral de la infancia. En esta se dice expresamente que no procederá el régimen de visitas —y si existiera, se suspenderá— para el progenitor “incurso en un proceso penal iniciado” por violencia de género o sexual contra el otro cónyuge o sus hijos, ni tampoco cuando el juez advierta “indicios fundados de violencia doméstica o de género”. En caso de mantener las visitas, debe ser por el bien del menor, y siempre en una resolución judicial motivada.
+La realidad, como revela el estudio, es que esta excepción legal es, sin embargo, la norma judicial. El interés del menor es un bien jurídico superior para nuestro ordenamiento: el favor filii (el beneficio del hijo) es un principio universal del derecho de familia, y prevalece sobre los derechos de los progenitores, que incluyen la crianza y la compañía de los hijos. La presunción de inocencia del supuesto agresor es un principio fundamental, pero su observancia no puede implicar que se asuma un riesgo sobre la integridad de los hijos. No se trata de aplicar un castigo preventivo, sino de atender al interés superior del menor, un principio consagrado en la Constitución y en el derecho internacional.
+El derecho civil es tradicionalmente reacio a regular demasiado los asuntos de familia, y deja en manos de los jueces resolver muchas situaciones atendiendo a la casuística. Y también ha sido un bastión del patriarcado. Por ejemplo, hasta la reforma del Código Civil de 1981, el ejercicio de la potestad era solo del padre, que podía incluso dar en adopción a los hijos sin el consentimiento de la madre (solo ejercía la patria potestad de manera subsidiaria, si faltaba el padre).
+Mucho han cambiado las leyes desde entonces. La sociedad española ha dado pasos agigantados y los legisladores han estado a su altura. Sin embargo, las cifras revelan que el poder judicial tiene todavía mucho por avanzar. No hacerlo pone en riesgo la integridad física y mental de los menores. Un coste inasumible.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/4EAEBAGGP5DAFI33EGL2RPJCU4.jpg?auth=644d287548d2a050c2ba90ea6902fb7c814827111d0b664a498047a0c8af9ba0&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_2_e5d5ebc8-84f0-446b-9a5c-fb77e9385d26.jpg
+
+📰 Article 3 Title: Singularidad
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+ℹ️ No cookie banner to accept.
+Los jueces españoles mantienen el régimen de visitas a padres denunciados por violencia machista en 8 de cada 10 casos. El estudio de la Asociación de Mujeres Juristas Themis que revela el dato —basado en sentencias de todas las instancias judiciales dictadas durante 2022 y 2023— recoge también que nueve de cada 10 resoluciones mantienen la patria potestad del agresor, y al 9,6% se le concede incluso la custodia exclusiva. Si a estos datos se añade que el Ministerio de Interior tenía identificados en mayo a más de 1.400 menores en riesgo de violencia vicaria —132 en riesgo alto de ser agredidos—, la situación es socialmente insoportable.
+Los ministerios de Interior e Igualdad se han organizado para afrontar el aumento de sucesos de violencia de género que se produce con las vacaciones de verano. Y los hijos menores de las mujeres maltratadas son también víctimas de esta violencia. Así lo recoge la Ley 8/2021 de protección integral de la infancia. En esta se dice expresamente que no procederá el régimen de visitas —y si existiera, se suspenderá— para el progenitor “incurso en un proceso penal iniciado” por violencia de género o sexual contra el otro cónyuge o sus hijos, ni tampoco cuando el juez advierta “indicios fundados de violencia doméstica o de género”. En caso de mantener las visitas, debe ser por el bien del menor, y siempre en una resolución judicial motivada.
+La realidad, como revela el estudio, es que esta excepción legal es, sin embargo, la norma judicial. El interés del menor es un bien jurídico superior para nuestro ordenamiento: el favor filii (el beneficio del hijo) es un principio universal del derecho de familia, y prevalece sobre los derechos de los progenitores, que incluyen la crianza y la compañía de los hijos. La presunción de inocencia del supuesto agresor es un principio fundamental, pero su observancia no puede implicar que se asuma un riesgo sobre la integridad de los hijos. No se trata de aplicar un castigo preventivo, sino de atender al interés superior del menor, un principio consagrado en la Constitución y en el derecho internacional.
+El derecho civil es tradicionalmente reacio a regular demasiado los asuntos de familia, y deja en manos de los jueces resolver muchas situaciones atendiendo a la casuística. Y también ha sido un bastión del patriarcado. Por ejemplo, hasta la reforma del Código Civil de 1981, el ejercicio de la potestad era solo del padre, que podía incluso dar en adopción a los hijos sin el consentimiento de la madre (solo ejercía la patria potestad de manera subsidiaria, si faltaba el padre).
+Mucho han cambiado las leyes desde entonces. La sociedad española ha dado pasos agigantados y los legisladores han estado a su altura. Sin embargo, las cifras revelan que el poder judicial tiene todavía mucho por avanzar. No hacerlo pone en riesgo la integridad física y mental de los menores. Un coste inasumible.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/4EAEBAGGP5DAFI33EGL2RPJCU4.jpg?auth=644d287548d2a050c2ba90ea6902fb7c814827111d0b664a498047a0c8af9ba0&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_2_07ba9ac7-024c-479d-9a83-965a3a461316.jpg
+
+📰 Article 3 Title: Singularidad
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+ℹ️ No cookie banner to accept.
+Nada más llegar al hotel, y antes siquiera de bajar a la playa, ya lo gana a uno la sensación acogedora de la intemporalidad. Atrás, en Madrid, en las salidas congestionadas de las autopistas, en el tono crispado de informativos y tertulias, queda toda la tensión del presente, que agobia tanto como el calor excesivo y el tráfico sin mengua del comienzo de julio. Llegar aquí es instalarse en otro tiempo, casi en otra época, y no solo porque el hotel se conserve más o menos como se construyó, hacia finales de los años 1920, o porque en el paseo marítimo, alternando con esbeltas torres de apartamentos de un modernismo de alta calidad de los años sesenta, se conserven villas de veraneo de princi...
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/TWG4SQMWEFBE7AV3HLKQPT3FVA.jpg?auth=6892a917610edb7f86069321bf937907a8cd59abe420750ea3ca5ebfe5f0c9f7&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_4_6531ae26-5b13-41b6-a34f-7ac00cdf1b38.jpg
+
+📰 Article 5 Title: Tiempos muertos
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+ℹ️ No cookie banner to accept.
+
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/4EAEBAGGP5DAFI33EGL2RPJCU4.jpg?auth=644d287548d2a050c2ba90ea6902fb7c814827111d0b664a498047a0c8af9ba0&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_2_51618b8e-ecf1-480f-afb2-1f0b128bb141.jpg
+
+📰 Article 3 Title: Singularidad
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+ℹ️ No cookie banner to accept.
+Los jueces españoles mantienen el régimen de visitas a padres denunciados por violencia machista en 8 de cada 10 casos. El estudio de la Asociación de Mujeres Juristas Themis que revela el dato —basado en sentencias de todas las instancias judiciales dictadas durante 2022 y 2023— recoge también que nueve de cada 10 resoluciones mantienen la patria potestad del agresor, y al 9,6% se le concede incluso la custodia exclusiva. Si a estos datos se añade que el Ministerio de Interior tenía identificados en mayo a más de 1.400 menores en riesgo de violencia vicaria —132 en riesgo alto de ser agredidos—, la situación es socialmente insoportable.
+Los ministerios de Interior e Igualdad se han organizado para afrontar el aumento de sucesos de violencia de género que se produce con las vacaciones de verano. Y los hijos menores de las mujeres maltratadas son también víctimas de esta violencia. Así lo recoge la Ley 8/2021 de protección integral de la infancia. En esta se dice expresamente que no procederá el régimen de visitas —y si existiera, se suspenderá— para el progenitor “incurso en un proceso penal iniciado” por violencia de género o sexual contra el otro cónyuge o sus hijos, ni tampoco cuando el juez advierta “indicios fundados de violencia doméstica o de género”. En caso de mantener las visitas, debe ser por el bien del menor, y siempre en una resolución judicial motivada.
+La realidad, como revela el estudio, es que esta excepción legal es, sin embargo, la norma judicial. El interés del menor es un bien jurídico superior para nuestro ordenamiento: el favor filii (el beneficio del hijo) es un principio universal del derecho de familia, y prevalece sobre los derechos de los progenitores, que incluyen la crianza y la compañía de los hijos. La presunción de inocencia del supuesto agresor es un principio fundamental, pero su observancia no puede implicar que se asuma un riesgo sobre la integridad de los hijos. No se trata de aplicar un castigo preventivo, sino de atender al interés superior del menor, un principio consagrado en la Constitución y en el derecho internacional.
+El derecho civil es tradicionalmente reacio a regular demasiado los asuntos de familia, y deja en manos de los jueces resolver muchas situaciones atendiendo a la casuística. Y también ha sido un bastión del patriarcado. Por ejemplo, hasta la reforma del Código Civil de 1981, el ejercicio de la potestad era solo del padre, que podía incluso dar en adopción a los hijos sin el consentimiento de la madre (solo ejercía la patria potestad de manera subsidiaria, si faltaba el padre).
+Mucho han cambiado las leyes desde entonces. La sociedad española ha dado pasos agigantados y los legisladores han estado a su altura. Sin embargo, las cifras revelan que el poder judicial tiene todavía mucho por avanzar. No hacerlo pone en riesgo la integridad física y mental de los menores. Un coste inasumible.
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/4EAEBAGGP5DAFI33EGL2RPJCU4.jpg?auth=644d287548d2a050c2ba90ea6902fb7c814827111d0b664a498047a0c8af9ba0&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_2_793bf73d-5581-4a22-8ee9-66f4f5635175.jpg
+
+📰 Article 3 Title: Singularidad
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+ℹ️ No cookie banner to accept.
+Creo que no es agradable besarle los pies a alguien. Pero la reverencia al poder busca todo tipo de materialidades con que manifestar adhesión, y encontró hace siglos que el beso postrado ante el trono (los labios sobre el manto o sobre los pies) era un evidente signo de sumisión y obediencia. Así se practicó en los salones palaciegos. En su mención figurada, el acto se convirtió en una fórmula con que evocar cortesía y respeto, por eso, en la despedida de las cartas antiguas aparecía a menudo un “que sus pies besa” que se hermanaba a veces con el menos servil “que sus manos besa”, un gesto no solo dicho sino también practicado en los encuentros cara a cara.
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/NVPXZJWQ2RO7ZNJE63B3WSGNNU.jpg?auth=77f3e9db487c004b27c5c0002e707a4e804014c9d8498b6d242cda69698f1b10&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_3_db8225a1-c0e9-486a-9b40-e8fea8e0f3d9.jpg
+
+📰 Article 4 Title: El mar ya no es eterno
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+ℹ️ No cookie banner to accept.
+Creo que no es agradable besarle los pies a alguien. Pero la reverencia al poder busca todo tipo de materialidades con que manifestar adhesión, y encontró hace siglos que el beso postrado ante el trono (los labios sobre el manto o sobre los pies) era un evidente signo de sumisión y obediencia. Así se practicó en los salones palaciegos. En su mención figurada, el acto se convirtió en una fórmula con que evocar cortesía y respeto, por eso, en la despedida de las cartas antiguas aparecía a menudo un “que sus pies besa” que se hermanaba a veces con el menos servil “que sus manos besa”, un gesto no solo dicho sino también practicado en los encuentros cara a cara.
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/NVPXZJWQ2RO7ZNJE63B3WSGNNU.jpg?auth=77f3e9db487c004b27c5c0002e707a4e804014c9d8498b6d242cda69698f1b10&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_3_829dc8e8-03ca-48b2-966b-5aa6bc2e76ba.jpg
+
+📰 Article 4 Title: El mar ya no es eterno
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+ℹ️ No cookie banner to accept.
+⚠️ Could not fetch content: no such element: Unable to locate element: {"method":"css selector","selector":"div.a_c.clearfix"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bba928b34049b335f08e9fb977787ea02fca8e7b, findElement {using=css selector, value=div.a_c.clearfix}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /var/folders/yj/h3bj394n2tn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bba928b34049b335f08e9fb9777...}
+Session ID: bba928b34049b335f08e9fb977787ea02fca8e7b
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/XXTL3NKA5RH7PDAUO7BLFUYRNY.jpg?auth=1c95b9a2513f20bf42e0175dd2508ff202d023014ab81323d2a99b24326a1305&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_5_767d7331-c7eb-41df-b3a1-f4ba53712b10.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeTopFiveOpinionArticles" classname="tests.OpinionTest" time="15.349">
+    <system-out><![CDATA[ℹ️ No cookie banner to accept.
+
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/NVPXZJWQ2RO7ZNJE63B3WSGNNU.jpg?auth=77f3e9db487c004b27c5c0002e707a4e804014c9d8498b6d242cda69698f1b10&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_3_721af1a3-95c1-40bc-81a7-c81ddc4bb838.jpg
+
+📰 Article 4 Title: 
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+ℹ️ No cookie banner to accept.
+Creo que no es agradable besarle los pies a alguien. Pero la reverencia al poder busca todo tipo de materialidades con que manifestar adhesión, y encontró hace siglos que el beso postrado ante el trono (los labios sobre el manto o sobre los pies) era un evidente signo de sumisión y obediencia. Así se practicó en los salones palaciegos. En su mención figurada, el acto se convirtió en una fórmula con que evocar cortesía y respeto, por eso, en la despedida de las cartas antiguas aparecía a menudo un “que sus pies besa” que se hermanaba a veces con el menos servil “que sus manos besa”, un gesto no solo dicho sino también practicado en los encuentros cara a cara.
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/NVPXZJWQ2RO7ZNJE63B3WSGNNU.jpg?auth=77f3e9db487c004b27c5c0002e707a4e804014c9d8498b6d242cda69698f1b10&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_3_3de58ff7-33b6-439c-bfbf-9848a8e8ed58.jpg
+
+📰 Article 4 Title: El mar ya no es eterno
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+ℹ️ No cookie banner to accept.
+Nada más llegar al hotel, y antes siquiera de bajar a la playa, ya lo gana a uno la sensación acogedora de la intemporalidad. Atrás, en Madrid, en las salidas congestionadas de las autopistas, en el tono crispado de informativos y tertulias, queda toda la tensión del presente, que agobia tanto como el calor excesivo y el tráfico sin mengua del comienzo de julio. Llegar aquí es instalarse en otro tiempo, casi en otra época, y no solo porque el hotel se conserve más o menos como se construyó, hacia finales de los años 1920, o porque en el paseo marítimo, alternando con esbeltas torres de apartamentos de un modernismo de alta calidad de los años sesenta, se conserven villas de veraneo de princi...
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/TWG4SQMWEFBE7AV3HLKQPT3FVA.jpg?auth=6892a917610edb7f86069321bf937907a8cd59abe420750ea3ca5ebfe5f0c9f7&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_4_5a2fe291-5b06-456a-91ec-440a3f0f23e2.jpg
+
+📰 Article 5 Title: Tiempos muertos
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+ℹ️ No cookie banner to accept.
+Nada más llegar al hotel, y antes siquiera de bajar a la playa, ya lo gana a uno la sensación acogedora de la intemporalidad. Atrás, en Madrid, en las salidas congestionadas de las autopistas, en el tono crispado de informativos y tertulias, queda toda la tensión del presente, que agobia tanto como el calor excesivo y el tráfico sin mengua del comienzo de julio. Llegar aquí es instalarse en otro tiempo, casi en otra época, y no solo porque el hotel se conserve más o menos como se construyó, hacia finales de los años 1920, o porque en el paseo marítimo, alternando con esbeltas torres de apartamentos de un modernismo de alta calidad de los años sesenta, se conserven villas de veraneo de princi...
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/TWG4SQMWEFBE7AV3HLKQPT3FVA.jpg?auth=6892a917610edb7f86069321bf937907a8cd59abe420750ea3ca5ebfe5f0c9f7&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_4_d9cef044-440b-4680-a2d1-f243c061124a.jpg
+
+📰 Article 5 Title: Tiempos muertos
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+🌐 Navigated to Opinion Section...
+✅ Accepted cookie banner.
+ℹ️ No cookie banner to accept.
+
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/TWG4SQMWEFBE7AV3HLKQPT3FVA.jpg?auth=6892a917610edb7f86069321bf937907a8cd59abe420750ea3ca5ebfe5f0c9f7&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_4_23ab26f6-19c5-4a21-a40e-5e1ac8dc15d2.jpg
+
+📰 Article 5 Title: 
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+ℹ️ No cookie banner to accept.
+Nada más llegar al hotel, y antes siquiera de bajar a la playa, ya lo gana a uno la sensación acogedora de la intemporalidad. Atrás, en Madrid, en las salidas congestionadas de las autopistas, en el tono crispado de informativos y tertulias, queda toda la tensión del presente, que agobia tanto como el calor excesivo y el tráfico sin mengua del comienzo de julio. Llegar aquí es instalarse en otro tiempo, casi en otra época, y no solo porque el hotel se conserve más o menos como se construyó, hacia finales de los años 1920, o porque en el paseo marítimo, alternando con esbeltas torres de apartamentos de un modernismo de alta calidad de los años sesenta, se conserven villas de veraneo de princi...
+Suscríbete para seguir leyendo
+Lee sin límites
+SEGUIR LEYENDO
+Ya soy suscriptor
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/TWG4SQMWEFBE7AV3HLKQPT3FVA.jpg?auth=6892a917610edb7f86069321bf937907a8cd59abe420750ea3ca5ebfe5f0c9f7&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_4_a3f9f8da-d0a7-48ef-91a6-331216399e48.jpg
+
+📰 Article 5 Title: Tiempos muertos
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+✅ Found 27 articles. Processing first 5.
+
+📰 Spanish Title [1]: A menos Schengen, menos Europa
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"Less Schengen, less Europe","from":"spa","to":"eng"}
+🌍 English Translation: Less Schengen, less Europe
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+ℹ️ No cookie banner to accept.
+⚠️ Could not fetch content: no such element: Unable to locate element: {"method":"css selector","selector":"div.a_c.clearfix"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [61a93daec60cf5d712c68e943669573bfeca9389, findElement {using=css selector, value=div.a_c.clearfix}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 61a93daec60cf5d712c68e94366...}
+Session ID: 61a93daec60cf5d712c68e943669573bfeca9389
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/XXTL3NKA5RH7PDAUO7BLFUYRNY.jpg?auth=1c95b9a2513f20bf42e0175dd2508ff202d023014ab81323d2a99b24326a1305&width=414
+ℹ️ No cookie banner to accept.
+⚠️ Could not fetch content: no such element: Unable to locate element: {"method":"css selector","selector":"div.a_c.clearfix"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b265ae4e2c391041d72ee0e20953c961bcc3b730, findElement {using=css selector, value=div.a_c.clearfix}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b265ae4e2c391041d72ee0e2095...}
+Session ID: b265ae4e2c391041d72ee0e20953c961bcc3b730
+✅ Image saved to src/main/resources/downloads/unknown_article_5_64cb3639-868c-4f68-96ab-c059fd1e139a.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeTopFiveOpinionArticles" classname="tests.OpinionTest" time="15.563">
+    <system-out><![CDATA[🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/XXTL3NKA5RH7PDAUO7BLFUYRNY.jpg?auth=1c95b9a2513f20bf42e0175dd2508ff202d023014ab81323d2a99b24326a1305&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_5_fd033574-3257-46c1-825e-a158863f8d47.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeTopFiveOpinionArticles" classname="tests.OpinionTest" time="23.935">
+    <system-out><![CDATA[📰 Spanish Title [2]: En interés de los menores
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"In the interest of minors","from":"spa","to":"eng"}
+🌍 English Translation: In the interest of minors
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+📰 Spanish Title [3]: Singularidad
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"Singularity","from":"spa","to":"eng"}
+🌍 English Translation: Singularity
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+
+⏸️ Waiting 3 seconds before next article...
+ℹ️ No cookie banner to accept.
+⚠️ Could not fetch content: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2897924d3cb70af219b7f057a27b52f9f1a67963, findElement {using=css selector, value=div.a_c.clearfix}]
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: safari, browserstack.isTargetBased: true, databaseEnabled: false, deviceName: iPhone 13, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, safariIgnoreFraudWarning: true, takesScreenshot: true, udid: 00008110-000105292E68401E, useXctestrunFile: true, webStorageEnabled: false}
+Session ID: 2897924d3cb70af219b7f057a27b52f9f1a67963
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/XXTL3NKA5RH7PDAUO7BLFUYRNY.jpg?auth=1c95b9a2513f20bf42e0175dd2508ff202d023014ab81323d2a99b24326a1305&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_5_36172241-da32-41ba-8ad1-bbd7899fb611.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeTopFiveOpinionArticles" classname="tests.OpinionTest" time="2.733">
+    <system-out><![CDATA[📰 Spanish Title [4]: El mar ya no es eterno
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"The sea is no longer eternal","from":"spa","to":"eng"}
+🌍 English Translation: The sea is no longer eternal
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+
+⏸️ Waiting 3 seconds before next article...
+ℹ️ No cookie banner to accept.
+⚠️ Could not fetch content: no such element: Unable to locate element: {"method":"css selector","selector":"div.a_c.clearfix"}
+  (Session info: chrome=135.0.7049.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bb5686ef308a4fae24c44166e60d2e9e94b929df, findElement {using=css selector, value=div.a_c.clearfix}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverPort: 18088, databaseEnabled: false, desired: {browserName: chrome, chromedriverPort: 18088, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://31.6...., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8208, udid: R5CT21L6GGL}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-S901E, deviceName: R5CT21L6GGL, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: R5CT21L6GGL, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://31.6...., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, pixelRatio: 3, platform: LINUX, platformName: ANDROID, platformVersion: 12, skipServerInstallation: true, statBarHeight: 79, systemPort: 8208, takesScreenshot: true, udid: R5CT21L6GGL, viewportRect: {height: 2036, left: 0, top: 79, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bb5686ef308a4fae24c44166e60d2e9e94b929df
+🖼️ Cover image URL: https://imagenes.elpais.com/resizer/v2/XXTL3NKA5RH7PDAUO7BLFUYRNY.jpg?auth=1c95b9a2513f20bf42e0175dd2508ff202d023014ab81323d2a99b24326a1305&width=414
+✅ Image saved to src/main/resources/downloads/unknown_article_5_6ae177cc-532b-4509-91b0-ba61023c5574.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="translateArticleTitlesAndAnalyze" classname="tests.TranslateTitleTest" time="3.494">
+    <system-out><![CDATA[📰 Spanish Title [5]: Tiempos muertos
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"Dead times","from":"spa","to":"eng"}
+🌍 English Translation: Dead times
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+
+📊 Translated Titles Collected: 5
+🔍 Repeated Words (appeared more than twice):
+✅ No words repeated more than twice.
+]]></system-out>
+  </testcase>
+  <testcase name="translateArticleTitlesAndAnalyze" classname="tests.TranslateTitleTest" time="17.003">
+    <system-out><![CDATA[🌐 Navigated to Opinion Section...
+✅ Accepted cookie banner.
+🌐 Navigated to Opinion Section...
+🌐 Navigated to Opinion Section...
+✅ Accepted cookie banner.
+✅ Found 27 articles. Processing first 5.
+
+📰 Spanish Title [1]: A menos Schengen, menos Europa
+🔁 Using API Key: d0cfd****
+🌐 Navigated to Opinion Section...
+✅ JSON Response: {"translated_text":"Less Schengen, less Europe","from":"spa","to":"eng"}
+🌍 English Translation: Less Schengen, less Europe
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+✅ Accepted cookie banner.
+📰 Spanish Title [2]: En interés de los menores
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"In the interest of minors","from":"spa","to":"eng"}
+🌍 English Translation: In the interest of minors
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+ℹ️ No cookie banner to accept.
+📰 Spanish Title [3]: Singularidad
+🔁 Using API Key: d0cfd****
+✅ Found 27 articles. Processing first 5.
+
+✅ JSON Response: {"translated_text":"Singularity","from":"spa","to":"eng"}
+🌍 English Translation: Singularity
+📰 Spanish Title [1]: A menos Schengen, menos Europa
+🔁 Using API Key: d0cfd****
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+
+⏸️ Waiting 3 seconds before next article...
+✅ JSON Response: {"translated_text":"Less Schengen, less Europe","from":"spa","to":"eng"}
+🌍 English Translation: Less Schengen, less Europe
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+✅ Found 27 articles. Processing first 5.
+
+📰 Spanish Title [1]: A menos Schengen, menos Europa
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"Less Schengen, less Europe","from":"spa","to":"eng"}
+🌍 English Translation: Less Schengen, less Europe
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+📰 Spanish Title [4]: El mar ya no es eterno
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"The sea is no longer eternal","from":"spa","to":"eng"}
+🌍 English Translation: The sea is no longer eternal
+📰 Spanish Title [2]: En interés de los menores
+🔁 Using API Key: d0cfd****
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+
+⏸️ Waiting 3 seconds before next article...
+✅ JSON Response: {"translated_text":"In the interest of minors","from":"spa","to":"eng"}
+🌍 English Translation: In the interest of minors
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+✅ Found 27 articles. Processing first 5.
+
+⚠️ Title for article 1 is empty.
+⚠️ Title for article 2 is empty.
+⚠️ Title for article 3 is empty.
+📰 Spanish Title [2]: En interés de los menores
+🔁 Using API Key: d0cfd****
+⚠️ Title for article 4 is empty.
+⚠️ Title for article 5 is empty.
+📊 Translated Titles Collected: 12
+🔍 Repeated Words (appeared more than twice):
+schengen → 4 times
+in → 3 times
+minors → 3 times
+less → 8 times
+the → 5 times
+interest → 3 times
+of → 3 times
+europe → 4 times
+]]></system-out>
+  </testcase>
+  <testcase name="translateArticleTitlesAndAnalyze" classname="tests.TranslateTitleTest" time="18.131">
+    <system-out><![CDATA[✅ JSON Response: {"translated_text":"In the interest of minors","from":"spa","to":"eng"}
+🌍 English Translation: In the interest of minors
+📰 Spanish Title [5]: Tiempos muertos
+🔁 Using API Key: d0cfd****
+🔗 URL: https://elpais.com/opinion/editoriales/
+
+⏸️ Waiting 3 seconds before next article...
+✅ JSON Response: {"translated_text":"Dead times","from":"spa","to":"eng"}
+🌍 English Translation: Dead times
+📰 Spanish Title [3]: Singularidad
+🔁 Using API Key: d0cfd****
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+
+📊 Translated Titles Collected: 14
+🔍 Repeated Words (appeared more than twice):
+schengen → 4 times
+in → 4 times
+minors → 4 times
+less → 8 times
+the → 6 times
+interest → 4 times
+of → 4 times
+europe → 4 times
+]]></system-out>
+  </testcase>
+  <testcase name="translateArticleTitlesAndAnalyze" classname="tests.TranslateTitleTest" time="26.339">
+    <system-out><![CDATA[✅ JSON Response: {"translated_text":"Singularity","from":"spa","to":"eng"}
+🌍 English Translation: Singularity
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+
+⏸️ Waiting 3 seconds before next article...
+📰 Spanish Title [3]: Singularidad
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"Singularity","from":"spa","to":"eng"}
+🌍 English Translation: Singularity
+📰 Spanish Title [4]: El mar ya no es eterno
+🔁 Using API Key: d0cfd****
+🔗 URL: https://elpais.com/opinion/2025-07-12/singularidad.html
+
+⏸️ Waiting 3 seconds before next article...
+✅ JSON Response: {"translated_text":"The sea is no longer eternal","from":"spa","to":"eng"}
+🌍 English Translation: The sea is no longer eternal
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+
+⏸️ Waiting 3 seconds before next article...
+📰 Spanish Title [4]: El mar ya no es eterno
+🔁 Using API Key: d0cfd****
+📰 Spanish Title [5]: Tiempos muertos
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"The sea is no longer eternal","from":"spa","to":"eng"}
+🌍 English Translation: The sea is no longer eternal
+🔗 URL: https://elpais.com/opinion/2025-07-12/el-mar-ya-no-es-eterno.html
+
+⏸️ Waiting 3 seconds before next article...
+✅ JSON Response: {"translated_text":"Dead times","from":"spa","to":"eng"}
+🌍 English Translation: Dead times
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+
+📊 Translated Titles Collected: 19
+🔍 Repeated Words (appeared more than twice):
+no → 4 times
+schengen → 4 times
+in → 4 times
+minors → 4 times
+is → 4 times
+dead → 3 times
+less → 8 times
+sea → 4 times
+the → 8 times
+eternal → 4 times
+longer → 4 times
+times → 3 times
+interest → 4 times
+of → 4 times
+singularity → 4 times
+europe → 4 times
+]]></system-out>
+  </testcase>
+  <testcase name="translateArticleTitlesAndAnalyze" classname="tests.TranslateTitleTest" time="30.362">
+    <system-out><![CDATA[📰 Spanish Title [5]: Tiempos muertos
+🔁 Using API Key: d0cfd****
+✅ JSON Response: {"translated_text":"Dead times","from":"spa","to":"eng"}
+🌍 English Translation: Dead times
+🔗 URL: https://elpais.com/opinion/2025-07-07/tiempos-muertos.html
+
+📊 Translated Titles Collected: 20
+🔍 Repeated Words (appeared more than twice):
+no → 4 times
+schengen → 4 times
+in → 4 times
+minors → 4 times
+is → 4 times
+dead → 4 times
+less → 8 times
+sea → 4 times
+the → 8 times
+eternal → 4 times
+longer → 4 times
+times → 4 times
+interest → 4 times
+of → 4 times
+singularity → 4 times
+europe → 4 times
+]]></system-out>
+  </testcase>
+</testsuite>

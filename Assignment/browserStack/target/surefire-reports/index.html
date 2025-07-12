@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" class="navigator-link">
+              <span class="suite-name border-passed">ElPaisCrossBrowserSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ElPaisCrossBrowserSuite" class="navigator-link ">
+                    <span>browserstack-parallel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ElPaisCrossBrowserSuite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ElPaisCrossBrowserSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ElPaisCrossBrowserSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ElPaisCrossBrowserSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ElPaisCrossBrowserSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ElPaisCrossBrowserSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" class="hide-methods passed suite-ElPaisCrossBrowserSuite"> (hide)</a> <!-- hide-methods passed suite-ElPaisCrossBrowserSuite -->
+                      <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" class="show-methods passed suite-ElPaisCrossBrowserSuite"> (show)</a> <!-- show-methods passed suite-ElPaisCrossBrowserSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ElPaisCrossBrowserSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.OpinionTest" class="method navigator-link" hash-for-method="scrapeTopFiveOpinionArticles">scrapeTopFiveOpinionArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.OpinionTest" class="method navigator-link" hash-for-method="scrapeTopFiveOpinionArticles">scrapeTopFiveOpinionArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.OpinionTest" class="method navigator-link" hash-for-method="scrapeTopFiveOpinionArticles">scrapeTopFiveOpinionArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.OpinionTest" class="method navigator-link" hash-for-method="scrapeTopFiveOpinionArticles">scrapeTopFiveOpinionArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.OpinionTest" class="method navigator-link" hash-for-method="scrapeTopFiveOpinionArticles">scrapeTopFiveOpinionArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.ElPaisTest" class="method navigator-link" hash-for-method="testWebsiteIsInSpanish">testWebsiteIsInSpanish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.ElPaisTest" class="method navigator-link" hash-for-method="testWebsiteIsInSpanish">testWebsiteIsInSpanish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.ElPaisTest" class="method navigator-link" hash-for-method="testWebsiteIsInSpanish">testWebsiteIsInSpanish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.ElPaisTest" class="method navigator-link" hash-for-method="testWebsiteIsInSpanish">testWebsiteIsInSpanish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.ElPaisTest" class="method navigator-link" hash-for-method="testWebsiteIsInSpanish">testWebsiteIsInSpanish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.TranslateTitleTest" class="method navigator-link" hash-for-method="translateArticleTitlesAndAnalyze">translateArticleTitlesAndAnalyze</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.TranslateTitleTest" class="method navigator-link" hash-for-method="translateArticleTitlesAndAnalyze">translateArticleTitlesAndAnalyze</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.TranslateTitleTest" class="method navigator-link" hash-for-method="translateArticleTitlesAndAnalyze">translateArticleTitlesAndAnalyze</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.TranslateTitleTest" class="method navigator-link" hash-for-method="translateArticleTitlesAndAnalyze">translateArticleTitlesAndAnalyze</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ElPaisCrossBrowserSuite" title="tests.TranslateTitleTest" class="method navigator-link" hash-for-method="translateArticleTitlesAndAnalyze">translateArticleTitlesAndAnalyze</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ElPaisCrossBrowserSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ElPaisCrossBrowserSuite" class="panel ElPaisCrossBrowserSuite">
+          <div class="suite-ElPaisCrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ElPaisTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWebsiteIsInSpanish">
+                  </a> <!-- testWebsiteIsInSpanish -->
+                  <span class="method-name">testWebsiteIsInSpanish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWebsiteIsInSpanish">
+                  </a> <!-- testWebsiteIsInSpanish -->
+                  <span class="method-name">testWebsiteIsInSpanish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWebsiteIsInSpanish">
+                  </a> <!-- testWebsiteIsInSpanish -->
+                  <span class="method-name">testWebsiteIsInSpanish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWebsiteIsInSpanish">
+                  </a> <!-- testWebsiteIsInSpanish -->
+                  <span class="method-name">testWebsiteIsInSpanish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWebsiteIsInSpanish">
+                  </a> <!-- testWebsiteIsInSpanish -->
+                  <span class="method-name">testWebsiteIsInSpanish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ElPaisCrossBrowserSuite-class-passed -->
+          <div class="suite-ElPaisCrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OpinionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrapeTopFiveOpinionArticles">
+                  </a> <!-- scrapeTopFiveOpinionArticles -->
+                  <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrapeTopFiveOpinionArticles">
+                  </a> <!-- scrapeTopFiveOpinionArticles -->
+                  <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrapeTopFiveOpinionArticles">
+                  </a> <!-- scrapeTopFiveOpinionArticles -->
+                  <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrapeTopFiveOpinionArticles">
+                  </a> <!-- scrapeTopFiveOpinionArticles -->
+                  <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrapeTopFiveOpinionArticles">
+                  </a> <!-- scrapeTopFiveOpinionArticles -->
+                  <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ElPaisCrossBrowserSuite-class-passed -->
+          <div class="suite-ElPaisCrossBrowserSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TranslateTitleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="translateArticleTitlesAndAnalyze">
+                  </a> <!-- translateArticleTitlesAndAnalyze -->
+                  <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="translateArticleTitlesAndAnalyze">
+                  </a> <!-- translateArticleTitlesAndAnalyze -->
+                  <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="translateArticleTitlesAndAnalyze">
+                  </a> <!-- translateArticleTitlesAndAnalyze -->
+                  <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="translateArticleTitlesAndAnalyze">
+                  </a> <!-- translateArticleTitlesAndAnalyze -->
+                  <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="translateArticleTitlesAndAnalyze">
+                  </a> <!-- translateArticleTitlesAndAnalyze -->
+                  <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ElPaisCrossBrowserSuite-class-passed -->
+        </div> <!-- panel ElPaisCrossBrowserSuite -->
+        <div panel-name="test-xml-ElPaisCrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/e5000853/Documents/QuestionSolution/Assignment/browserStack/src/test/resources/suite/browserstack-parallel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;ElPaisCrossBrowserSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Chrome_Windows&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;11&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ElPaisTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpinionTest&quot;/&gt;
+      &lt;class name=&quot;tests.TranslateTitleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome_Windows --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Firefox_Mac&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;Monterey&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ElPaisTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpinionTest&quot;/&gt;
+      &lt;class name=&quot;tests.TranslateTitleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox_Mac --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Edge_Windows&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;11&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ElPaisTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpinionTest&quot;/&gt;
+      &lt;class name=&quot;tests.TranslateTitleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge_Windows --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Safari_iPhone&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;iPhone 13&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ElPaisTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpinionTest&quot;/&gt;
+      &lt;class name=&quot;tests.TranslateTitleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Safari_iPhone --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Chrome_Android&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;Samsung Galaxy S22&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ElPaisTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpinionTest&quot;/&gt;
+      &lt;class name=&quot;tests.TranslateTitleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome_Android --&gt;
+&lt;/suite&gt; &lt;!-- ElPaisCrossBrowserSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ElPaisCrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ElPaisCrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome_Windows (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox_Mac (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge_Windows (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Safari_iPhone (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome_Android (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ElPaisCrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ElPaisCrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ElPaisCrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ElPaisCrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ElPaisCrossBrowserSuite');
+function tableData_ElPaisCrossBrowserSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'scrapeTopFiveOpinionArticles')
+data.setCell(0, 2, 'tests.OpinionTest')
+data.setCell(0, 3, 97598);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'scrapeTopFiveOpinionArticles')
+data.setCell(1, 2, 'tests.OpinionTest')
+data.setCell(1, 3, 92532);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'scrapeTopFiveOpinionArticles')
+data.setCell(2, 2, 'tests.OpinionTest')
+data.setCell(2, 3, 87746);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'scrapeTopFiveOpinionArticles')
+data.setCell(3, 2, 'tests.OpinionTest')
+data.setCell(3, 3, 87540);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'scrapeTopFiveOpinionArticles')
+data.setCell(4, 2, 'tests.OpinionTest')
+data.setCell(4, 3, 84103);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'translateArticleTitlesAndAnalyze')
+data.setCell(5, 2, 'tests.TranslateTitleTest')
+data.setCell(5, 3, 39993);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'translateArticleTitlesAndAnalyze')
+data.setCell(6, 2, 'tests.TranslateTitleTest')
+data.setCell(6, 3, 39283);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'translateArticleTitlesAndAnalyze')
+data.setCell(7, 2, 'tests.TranslateTitleTest')
+data.setCell(7, 3, 30360);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'translateArticleTitlesAndAnalyze')
+data.setCell(8, 2, 'tests.TranslateTitleTest')
+data.setCell(8, 3, 28552);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'translateArticleTitlesAndAnalyze')
+data.setCell(9, 2, 'tests.TranslateTitleTest')
+data.setCell(9, 3, 20531);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testWebsiteIsInSpanish')
+data.setCell(10, 2, 'tests.ElPaisTest')
+data.setCell(10, 3, 8355);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testWebsiteIsInSpanish')
+data.setCell(11, 2, 'tests.ElPaisTest')
+data.setCell(11, 3, 7685);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testWebsiteIsInSpanish')
+data.setCell(12, 2, 'tests.ElPaisTest')
+data.setCell(12, 3, 4189);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testWebsiteIsInSpanish')
+data.setCell(13, 2, 'tests.ElPaisTest')
+data.setCell(13, 3, 2435);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testWebsiteIsInSpanish')
+data.setCell(14, 2, 'tests.ElPaisTest')
+data.setCell(14, 3, 2264);
+window.suiteTableData['ElPaisCrossBrowserSuite']= { tableData: data, tableDiv: 'times-div-ElPaisCrossBrowserSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-ElPaisCrossBrowserSuite">
+              </div> <!-- times-div-ElPaisCrossBrowserSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ElPaisCrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ElPaisCrossBrowserSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ElPaisCrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ElPaisCrossBrowserSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElPaisTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Windows, 11, chrome, latest, )</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(OS X, Monterey, firefox, latest, )</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Windows, 11, edge, latest, )</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(, , safari, , iPhone 13)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(, , chrome, , Samsung Galaxy S22)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWebsiteIsInSpanish</span>
+                <span class="method-start">5833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWebsiteIsInSpanish</span>
+                <span class="method-start">7227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWebsiteIsInSpanish status=SUCCESS method=ElPaisTest.testWebsiteIsInSpanish()[pr...)</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testWebsiteIsInSpanish</span>
+                <span class="method-start">10076 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpinionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(OS X, Monterey, firefox, latest, )</span>
+                <span class="method-start">10155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                <span class="method-start">14267 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElPaisTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWebsiteIsInSpanish status=SUCCESS method=ElPaisTest.testWebsiteIsInSpanish()[pr...)</span>
+                <span class="method-start">14914 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpinionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Windows, 11, chrome, latest, )</span>
+                <span class="method-start">16603 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElPaisTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testWebsiteIsInSpanish</span>
+                <span class="method-start">17331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWebsiteIsInSpanish status=SUCCESS method=ElPaisTest.testWebsiteIsInSpanish()[pr...)</span>
+                <span class="method-start">18434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testWebsiteIsInSpanish</span>
+                <span class="method-start">18911 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpinionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Windows, 11, edge, latest, )</span>
+                <span class="method-start">20131 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElPaisTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWebsiteIsInSpanish status=SUCCESS method=ElPaisTest.testWebsiteIsInSpanish()[pr...)</span>
+                <span class="method-start">21178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWebsiteIsInSpanish status=SUCCESS method=ElPaisTest.testWebsiteIsInSpanish()[pr...)</span>
+                <span class="method-start">21523 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpinionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                <span class="method-start">22553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(, , safari, , iPhone 13)</span>
+                <span class="method-start">22871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(, , chrome, , Samsung Galaxy S22)</span>
+                <span class="method-start">23314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                <span class="method-start">32825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                <span class="method-start">40061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrapeTopFiveOpinionArticles</span>
+                <span class="method-start">40990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=scrapeTopFiveOpinionArticles status=SUCCESS method=OpinionTest.scrapeTopFiveOpinion...)</span>
+                <span class="method-start">98373 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TranslateTitleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(OS X, Monterey, firefox, latest, )</span>
+                <span class="method-start">100234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                <span class="method-start">104803 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpinionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=scrapeTopFiveOpinionArticles status=SUCCESS method=OpinionTest.scrapeTopFiveOpinion...)</span>
+                <span class="method-start">120153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=scrapeTopFiveOpinionArticles status=SUCCESS method=OpinionTest.scrapeTopFiveOpinion...)</span>
+                <span class="method-start">120367 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TranslateTitleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Windows, 11, chrome, latest, )</span>
+                <span class="method-start">121998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Windows, 11, edge, latest, )</span>
+                <span class="method-start">122196 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpinionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=scrapeTopFiveOpinionArticles status=SUCCESS method=OpinionTest.scrapeTopFiveOpinion...)</span>
+                <span class="method-start">128738 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TranslateTitleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                <span class="method-start">129862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(, , safari, , iPhone 13)</span>
+                <span class="method-start">130473 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpinionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=scrapeTopFiveOpinionArticles status=SUCCESS method=OpinionTest.scrapeTopFiveOpinion...)</span>
+                <span class="method-start">132596 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TranslateTitleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=translateArticleTitlesAndAnalyze status=SUCCESS method=TranslateTitleTest.translate...)</span>
+                <span class="method-start">133357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(, , chrome, , Samsung Galaxy S22)</span>
+                <span class="method-start">134283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                <span class="method-start">138780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                <span class="method-start">148197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">translateArticleTitlesAndAnalyze</span>
+                <span class="method-start">151728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=translateArticleTitlesAndAnalyze status=SUCCESS method=TranslateTitleTest.translate...)</span>
+                <span class="method-start">168731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=translateArticleTitlesAndAnalyze status=SUCCESS method=TranslateTitleTest.translate...)</span>
+                <span class="method-start">169858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=translateArticleTitlesAndAnalyze status=SUCCESS method=TranslateTitleTest.translate...)</span>
+                <span class="method-start">178066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=translateArticleTitlesAndAnalyze status=SUCCESS method=TranslateTitleTest.translate...)</span>
+                <span class="method-start">182090 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
